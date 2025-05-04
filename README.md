@@ -51,4 +51,4 @@ python barcode.py -video <PATH_TO_VIDEO> [-u]
 There are some constants defined in the code that can be changed if desired.
 * Set `OUT_WIDTH` and `OUT_HEIGHT` to the desired output dimensions.
 * Set `SAMPLE_HEIGHT` to change the granularity of the columns. `SAMPLE_HEIGHT` should be at most the input video height and at least 1 (which is equivalent to using the `-u` flag). This is a matter of personal preference; larger values preserve more detail while smaller values yield smoother results.
-* Tip: use low-resolution videos. It won't effect the result at all and it will run much faster.
+* Tip: use low-resolution videos. It won't affect the result at all and it will run much faster.
